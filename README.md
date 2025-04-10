@@ -42,8 +42,8 @@ backend/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/url-shortener-backend.git
-cd url-shortener-backend
+git clone https://github.com/IndrajeetNinjaCoder/URLShortener_backend.git
+cd URLShortener_backend
 ```
 
 ### 2. Install Dependencies
@@ -74,14 +74,15 @@ The server will run at `http://localhost:5000`.
 
 ### Authentication
 
-- `POST /api/login` — Authenticate user
+- `POST /api/auth/login` — Authenticate user
 
 ### URL Management
 
 - `POST /api/shorten` — Shorten a long URL
 - `GET /:shortId` — Redirect to original URL
-- `GET /api/urls` — Get all shortened URLs (authenticated)
-- `GET /api/clicks/:shortId` — Get click analytics
+- `GET /api/url/all` — Get all shortened URLs
+- `GET /api/url/create` — Short an URL (authenticated)
+- `GET /api/clicks` — Get click analytics
 
 ---
 
@@ -94,6 +95,3 @@ The server will run at `http://localhost:5000`.
 
 ---
 
-## 📬 Contact
-
-For any queries or feedback, feel free to reach out!
