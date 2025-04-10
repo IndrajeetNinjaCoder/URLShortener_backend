@@ -20,7 +20,7 @@ app.use(cors())
 app.use(express.json());
 app.use(useragent.express());
 
-connectDB("mongodb+srv://Indrajeet:Indrajeet@crudapi.xhdof.mongodb.net/?retryWrites=true&w=majority&appName=CRUDAPI");
+connectDB();
 
 
 
