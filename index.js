@@ -22,6 +22,7 @@ app.use(useragent.express());
 
 connectDB();
 
+app.set("trust proxy", true);
 
 
 // Add hardcoded user (run once or during DB init)
